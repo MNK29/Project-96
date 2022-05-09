@@ -1,0 +1,77 @@
+body {
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+
+.header {
+    font-weight: bold;
+	color: rgb(8, 8, 8);
+    font-family: "Ms Madi";
+    font-size: 50px;
+    margin-top: 5%;
+}
+
+.login_div {
+	background: rgb(221, 191, 21);
+    float: none;
+    border-radius: 15px;
+    margin: 40px;
+}
+
+.logo {
+    margin-top: 10px;
+    width: 40%;
+}
+
+#signin_button {
+	width: 80%;
+    border-radius: 15px;
+}
+
+
+
+.room_name {
+	cursor: pointer;
+	font-size: 20px;
+}
+
+#logout {
+	font-size: 20px; 
+    float: right;
+}
+
+#output {
+	padding: 10px; 
+    width: 80%;
+    background: rgb(221, 191, 21);
+    border-radius: 15px;
+}
+
+.input_div_room_page {
+	width: 80%;
+}
+
+
+
+.input_div label {
+	color: white;
+    font-size: 20px;
+}
+
+.input_div_message_page {
+	position: fixed;
+    background: rgb(2, 75, 185);
+    width: 100%;
+    bottom: 0px;
+}
+
+#msg {
+    background-color: rgb(43, 42, 42);
+    width: 60%;
+    margin: 10px;
+    color: aliceblue;
+}
+
+#send {
+    width: 10%;
+    font-size: 18px;
+}
